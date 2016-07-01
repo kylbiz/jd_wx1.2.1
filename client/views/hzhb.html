@@ -1,0 +1,48 @@
+<!-- 合作伙伴 -->
+
+<template name="hzhb">
+	
+	<section id="hzhb">
+		
+			{{#each shops}}
+				
+				<div class="shop-item" flex="cross:center">
+					
+					<img src="{{ img }}" alt="" class="l">
+					
+					<div class="dib r right">
+						<p class="name">{{ name }}</p>
+						<p class="enname">{{ enname }}</p>
+						<p class="intro">{{ intro }}</p>
+						<a href="{{ index }}" class="c0 bd28">官方网站</a>
+						<a href="{{ shop }}" class="c6 bd28">店铺链接</a>
+					</div>
+
+				</div>	
+
+			{{/each}}
+
+	</section>
+
+</template>
+
+
+<!-- 驻区企业 -->
+<template name="zqqy">
+	
+	<section id="zqqy">
+		
+		{{#each companys}}
+			
+			<div class="co dib">
+				<div class="imgbox tc">
+					<img src="{{ img }}" alt="">
+				</div>
+				<p class="tc">{{ name }}</p>
+			</div>
+
+		{{/each}}
+		<div style="height: 1.4rem;"></div>
+	</section>
+
+</template>

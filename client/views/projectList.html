@@ -1,0 +1,62 @@
+<!-- 招商项目 -->
+<template name="zsxm">
+	<section id="project-list">
+		<ul>
+			{{#each projects}}
+			<li>
+				<a href="{{ url }}" class="db">
+					<img src="{{ img }}" alt="" class="l db" flex="cross:center">
+					<div class="dib" flex="cross:center">
+						<p class="title">{{ title }}</p>
+						<p class="subtitle">投资额：{{ tzmoney }}亿元</p>
+						<p class="subtitle">税收预测：{{ tzmoney }}亿元</p>
+					</div>
+				</a>
+			</li>
+			{{/each}}
+		</ul>
+		<div style="height: 1.4rem;"></div>
+	</section>
+</template>
+
+<!-- 重点项目 -->
+<template name="zdxm">
+	<section id="project-list">
+		<ul>
+			{{#each projects}}
+			<li>
+				<a href="{{ url }}" class="db">
+					<img src="{{ img }}" alt="" class="l db" flex="cross:center">
+					<div class="dib" flex="cross:center">
+						<p class="title">{{ title }}</p>
+						<p class="subtitle">投资额：{{ tzmoney }}亿元</p>
+						<p class="subtitle">税收预测：{{ tzmoney }}亿元</p>
+					</div>
+				</a>
+			</li>
+			{{/each}}
+		</ul>
+		<div style="height: 1.4rem;"></div>
+	</section>
+</template>
+
+<!-- 落地项目 -->
+<template name="ldxm">
+	<section id="project-list">
+		<ul>
+			{{#each projects}}
+			<li>
+				<a href="{{ url }}" class="db">
+					<img src="{{ img }}" alt="" class="l db" flex="cross:center">
+					<div class="dib" flex="cross:center">
+						<p class="title">{{ title }}</p>
+						<p class="subtitle">投资额：{{ tzmoney }}亿元</p>
+						<p class="subtitle">税收预测：{{ tzmoney }}亿元</p>
+					</div>
+				</a>
+			</li>
+			{{/each}}
+		</ul>
+		<div style="height: 1.4rem;"></div>
+	</section>
+</template>

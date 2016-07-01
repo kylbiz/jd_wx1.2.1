@@ -1,0 +1,72 @@
+<!-- 首页 -->
+<template name="home">
+  	<div id="home">
+		{{> swiper}}
+		<section class="news-list" flex="">
+			<div class="left-title dib" flex-box="0">
+				<p class="title">头条新闻</p>
+				<span class="bd28 c0">新闻动态</span>
+			</div>
+			<div class="list dib" flex-box="1">
+				<ul>
+				{{#each news}}
+					<li class="cp">
+						<a href="{{ url }}">
+							<h3>{{ title }}</h3>
+							<span class="date">{{ date }}</span>
+						</a>
+					</li>
+				{{/each}}
+				</ul>
+			</div>
+			<div class="arrow dib" flex-box="0">
+				<i class="fa fa-angle-right fa-2" aria-hidden="true"></i>
+			</div>
+		</section>
+		<section class="bo3">
+
+			<ul flex="box:mean main:center cross:center">
+				{{#each threeList}}
+					<li class="dib">
+					<a href="{{ url }}" class="db">
+						<p class="title tc">{{ title }}</p>	
+						<p class="subtitle tc">{{ subtitle }}</p>
+						<img src="{{ img }}" alt="">
+					</a>
+					</li>
+				{{/each}}
+			</ul>
+
+		</section>
+		<section class="bo6" flex="box:mean">
+			
+			<ul flex="box:mean dir:top">
+				{{#each sixList1}}
+					<li class="dib">
+						<a href="{{ url }}" class="db">
+							<p class="title">{{ title }}</p>	
+							<span class="color-title {{ color }} bd28">{{ subtitle }}</span>
+							<img src="{{ img }}" alt="" class="r">
+						</a>
+					</li>
+				{{/each}}
+			</ul>
+			<ul flex="box:mean dir:top">
+				{{#each sixList2}}
+					<li class="dib">
+						<a href="{{ url }}" class="db">
+							<p class="title">{{ title }}</p>	
+							<span class="color-title {{ color }} bd28">{{ subtitle }}</span>
+							<img src="{{ img }}" alt="" class="r">
+						</a>
+					</li>
+				{{/each}}
+			</ul>
+
+		</section>
+		<div style="height: 1.4rem;"></div>
+
+	</div>
+	{{> footer}}
+
+</template>

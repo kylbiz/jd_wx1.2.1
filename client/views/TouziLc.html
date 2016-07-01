@@ -1,0 +1,35 @@
+<!-- 投资流程 -->
+<template name="tzlc">
+	
+	<section id="tzlc">
+		
+		<ul>
+			{{#each list}}
+				<li>{{ step }} <i class="fa fa-angle-down fa-2" aria-hidden="true"></i></li>
+				<div class="child">
+					<h4>{{ title }}</h4>
+					<img src="{{ img }}" alt="">
+				</div>
+			{{/each}}
+		</ul>
+		<div style="height: 1.4rem;"></div>
+	</section>
+
+</template>
+
+<!-- 注册流程 -->
+<template name="zclc">
+	
+	<section id="zclc">
+		<ul flex="box:mean dir:left">
+			<li class="tc active">工商办照程序</li>
+			<li class="tc">税务登记程序</li>
+		</ul>
+		<div class="box">
+			<img src="../image/tzlc/zclc1.png" alt="" class="show">
+			<img src="../image/tzlc/zclc2.png" alt="">
+		</div>
+	</section>
+	<div style="height: 1.4rem;"></div>
+
+</template>

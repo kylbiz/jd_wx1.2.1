@@ -1,0 +1,27 @@
+<!-- 投资环境 -->
+<template name="tzhj">
+	
+	<section id="tzhj" class="pr">
+		
+		<div class="intro">
+			{{#each contents}}
+			<div>
+				<h3>{{ title }}</h3>
+				<p>{{ subtitle }}</p>
+				<p>{{ textarea }}</p>
+			</div>
+			{{/each}}
+		</div>
+
+		<ul flex="box:mean dir:left" class="pa">
+			{{#each items}}
+			<li class="tc cp tabs">
+				<img src="{{ img }}" alt="">
+				<p>{{ title }}</p>
+			</li>
+			{{/each}}
+		</ul>
+		
+	</section>
+
+</template>
