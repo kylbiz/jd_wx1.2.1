@@ -29,7 +29,7 @@
   // Configure environment
   // ROOT_URL must be set to your correct domain (https or http)
   "env": {
-    "PORT": 8804,
+    "PORT": 8807,
     "ROOT_URL": "http://demo.kyl.biz"
   },
 
