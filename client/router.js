@@ -173,6 +173,13 @@ FlowRouter.route('/glyq', {
   }
 });
 
+//关联园区/园区概况list
+FlowRouter.route('/glyq/yqgkList', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "yqgkList"});
+  }
+});
+
 //关联园区/园区概况
 FlowRouter.route('/glyq/yqgk', {
   action: function() {

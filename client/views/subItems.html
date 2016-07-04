@@ -118,3 +118,24 @@
 
 
 </template>
+
+<template name="yqgkList">
+	
+	<section id="sub-items">
+		
+		<ul>
+			{{#each items}}
+			<li class="dib">
+				<a href="{{ url }}" class="db">
+					<img src="{{ img }}" alt="" class="l">
+					<p class="title">{{ title }}</p>	
+					<span class="color-title {{ color }} bd28">{{ subtitle }}</span>
+					<i class="fa fa-angle-right fa-2 r" aria-hidden="true"></i>
+				</a>
+			</li>
+			{{/each}}
+		</ul>
+		
+	</section>
+
+</template>
