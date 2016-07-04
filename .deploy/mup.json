@@ -4,14 +4,14 @@
     {
       "host": "139.196.111.194",
       "username": "root",
-      "password": "Laaho.com",
+      "password": "Laaho.com"
       // or pem file (ssh based authentication)
       // WARNING: Keys protected by a passphrase are not supported
       //"pem": "~/.ssh/id_rsa"
       // Also, for non-standard ssh port use this
       //"sshOptions": { "port" : 49154 },
       // server specific environment variables
-      "env": {}
+      // "env": {}
     }
   ],
 
@@ -19,17 +19,18 @@
   "setupMongo": false,
 
   // Application name (no spaces).
-  "appName": "jd_wx",
+  "appName": "jd_wx1.2.1",
 
   // Location of app (local directory). This can reference '~' as the users home directory.
   // i.e., "app": "~/Meteor/my-app",
   // This is the same as the line below.
-  "app": "/Users/local/Desktop/JD/jd_wx",
+  "app": "/Users/local/Desktop/jd/jd_wx1.2.1",
 
   // Configure environment
   // ROOT_URL must be set to your correct domain (https or http)
   "env": {
-    "PORT": 8807,
+    "PORT": 8810,
+    // "MONGO_URL": "mongodb://127.0.0.1:27017/fxProj",
     "ROOT_URL": "http://demo.kyl.biz"
   },
 
@@ -37,7 +38,7 @@
   // Before mup checks that, it will wait for the number of seconds configured below.
   "deployCheckWaitTime": 30,
 
-  // show a progress bar while uploading. 
+  // show a progress bar while uploading.
   // Make it false when you deploy using a CI box.
   "enableUploadProgressBar": true
 }
