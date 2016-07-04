@@ -14,7 +14,7 @@
       "env": {}
     }
   ],
-
+  "nodeVersion": "0.10.36",
   // Install MongoDB on the server. Does not destroy the local MongoDB on future setups
   "setupMongo": false,
 
