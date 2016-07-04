@@ -116,7 +116,7 @@ Template.xgzc.events({
 	'click li': function (e) {
 		e.preventDefault();
 		var li = e.currentTarget;
-		var index = $("li").index(li);
+		var index = $(".tab").index(li);
 		// console.log(index);
 		$(li).addClass("active").siblings().removeClass("active");
 		$(".box .item").eq(index).show().siblings().hide();
