@@ -31,7 +31,7 @@ Template.home.helpers({
 				title: '园区概况',
 				subtitle: '关于园区',
 				img: '../image/home/1.png',
-				url: '/glyq/yqgk'
+				url: '/glyq/yqgkList'
 			},
 			{
 				title: '重点项目',

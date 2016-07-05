@@ -1,27 +1,27 @@
 <template name="swiper">
-	<section class="swipers">
+	<section class="swiper-container">
 
-		<div class="swiper">
+		<div class="swiper-wrapper">
 			
-			<div style="background:url(image/home/banner1.png)" class="pr l">
+			<div style="background:url(image/home/banner1.png);" class="swiper-slide">
 				
 				<h3 class="tc">远见卓识</h3>
 				<p class="tc">嘉定出口加工区竭诚欢迎中外投资者前来投资考察，并为投资者创造一个优良的投资环境</p>
 				<span class="pa">1/6</span>
 			</div>
-			<div style="background:url(image/home/banner1.png)" class="pr l">
+			<div style="background:url(image/home/banner1.png)" class="swiper-slide">
 				
 				<h3 class="tc">远见卓识</h3>
 				<p class="tc">嘉定出口加工区竭诚欢迎中外投资者前来投资考察，并为投资者创造一个优良的投资环境</p>
 				<span class="pa">2/6</span>
 			</div>
-			<div style="background:url(image/home/banner1.png)" class="pr l">
+			<div style="background:url(image/home/banner1.png)" class="swiper-slide">
 				
 				<h3 class="tc">远见卓识</h3>
 				<p class="tc">嘉定出口加工区竭诚欢迎中外投资者前来投资考察，并为投资者创造一个优良的投资环境</p>
 				<span class="pa">3/6</span>
 			</div>
-			<div style="background:url(image/home/banner1.png)" class="pr l">
+			<div style="background:url(image/home/banner1.png)" class="swiper-slide">
 				
 				<h3 class="tc">远见卓识</h3>
 				<p class="tc">嘉定出口加工区竭诚欢迎中外投资者前来投资考察，并为投资者创造一个优良的投资环境</p>
@@ -31,4 +31,18 @@
 		</div>
 		
 	</section>
+	<script>
+		
+		$(document).ready(function () {
+		   //initialize swiper when document ready  
+		   var mySwiper = new Swiper ('.swiper-container', {
+		     // Optional parameters
+		    	direction: 'horizontal',
+			    loop: true,
+			    autoplay: 5000,
+			    // followFinger: false	
+		   })        
+		 });
+
+	</script>
 </template>
