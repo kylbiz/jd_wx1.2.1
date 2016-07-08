@@ -54,7 +54,7 @@ Template.home.helpers({
 				title: '新闻中心',
 				subtitle: '园区新闻',
 				img: '../image/home/01.png',
-				url: '/xwzx',
+				url: 'http://www.jdepz.com/article/?type=weblist',
 				color: 'c1'
 			},
 			{

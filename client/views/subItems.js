@@ -1,13 +1,13 @@
 Template.zsfw.helpers({
 	items: function () {
 		return [
-			{
-				title: '招商项目',
-				subtitle: '服务信息',
-				img: '../image/subitems/zsfw1.png',
-				url: '/glyq/zdxm',
-				color: 'c7'
-			},
+			// {
+			// 	title: '招商项目',
+			// 	subtitle: '服务信息',
+			// 	img: '../image/subitems/zsfw1.png',
+			// 	url: '/glyq/zdxm',
+			// 	color: 'c7'
+			// },
 			{
 				title: '相关政策',
 				subtitle: '政策信息',
@@ -41,7 +41,7 @@ Template.swhz.helpers({
 				subtitle: '合作项目',
 				img: '../image/subitems/swhz1.png',
 				url: '',
-				contact: 'zhaoshangtuozhan@kit.com',
+				contact: 'jdckjgq@jdepz.com',
 				color: 'c0'
 			},
 			{
@@ -49,7 +49,7 @@ Template.swhz.helpers({
 				subtitle: '加入我们',
 				img: '../image/subitems/swhz2.png',
 				url: '',
-				contact: 'hr@kjt.com',
+				contact: '',
 				color: 'c6'
 			}
 		]
@@ -84,7 +84,7 @@ Template.ptjs.helpers({
 				title: '在线咨询',
 				subtitle: '联系我们',
 				img: '../image/subitems/ptjs4.png',
-				url: 'tel:021-39568005',
+				url: 'tel:021-39568098',
 				color: 'c7'
 			}
 		]
@@ -94,10 +94,10 @@ Template.xmjs.helpers({
 	items: function () {
 		return [
 			{
-				title: '平台建设',
+				title: '平台介绍',
 				subtitle: '项目平台',
 				img: '../image/subitems/xmjs1.png',
-				url: '/ptjs',
+				url: '/ptjs/sdpt',
 				color: 'c8'
 			},
 			{
@@ -182,13 +182,13 @@ Template.yqgkList.helpers({
 			url: '/glyq/tzhj',
 			color: 'c6'
 		},
-		{
-			title: '重点项目',
-			subtitle: '建设状况',
-			img: '../image/subitems/glyq4.png',
-			url: '/glyq/zdxm',
-			color: 'c8'
-		},
+		// {
+		// 	title: '重点项目',
+		// 	subtitle: '建设状况',
+		// 	img: '../image/subitems/glyq4.png',
+		// 	url: '/glyq/zdxm',
+		// 	color: 'c8'
+		// },
 		{
 			title: '园区文化',
 			subtitle: '园区新闻',

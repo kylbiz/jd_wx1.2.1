@@ -1,3 +1,4 @@
+
 (function (win, lib) {
     var doc = win.document;
     var docEl = doc.documentElement;
@@ -11,10 +12,19 @@
     function setViewport() {
         // 判断IOS
         var isIPhone = /iphone/gi.test(win.navigator.appVersion);
-        // 布局视口与理想视口的值与设备像素比相等
-        dpr = devicePixelRatio;
-        // hack
-        if (/coolpad\u0020*8720L|scl-tl00|vivo\u0020x3t/i.test(window.navigator.userAgent)) {
+        // 布局视口与理想视口的值与设备像素比相等 只针对iphone
+        if (isIPhone) {
+            if (devicePixelRatio >= 3) {
+                dpr = 3;
+            }
+            else if (devicePixelRatio === 2) {
+                dpr = 2;
+            }
+            else {
+                dpr = 1;
+            }
+        }
+        else {
             dpr = 1;
         }
         // window对象上增加一个属性，提供对外的布局视口与理想视口的值
@@ -31,7 +41,7 @@
             }
             // target-densitydpi 目标设备密度等级，默认值medium-dpi，我们的目标是css中的1px会等于物理像素中的1px，故使用target-densitydpi=device-dpi
             else {
-                hasMetaEl.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no,target-densitydpi=device-dpi');
+                hasMetaEl.setAttribute('content', 'width=device-width, initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
             } 
         }
         // 如果没有，添加之
@@ -42,7 +52,7 @@
                 metaEl.setAttribute('content', 'initial-scale=' + scale + ', user-scalable=no');
             }
             else {
-                metaEl.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no,target-densitydpi=device-dpi');
+                metaEl.setAttribute('content', 'width=device-width, initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
             }
             
             if (docEl.firstElementChild) {

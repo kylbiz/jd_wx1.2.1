@@ -3,7 +3,15 @@ Template.hzhb.helpers({
 		return [
 			{
 				img: '../image/hzhb/agg.png',
-				name: '阿侠谷',
+				name: '嘉境通跨境电商平台',
+				enname: 'AJAYA GURU GROUP',
+				intro: '阿侠谷成立注册于中国上海，是一家国际化的新型电商服务公司，我们专注于跨境电子商务领域，提供高规范一体化的跨境仓储资源，便捷高效的跨境服务解决方案。',
+				index: '',
+				shop: ''
+			},
+			{
+				img: '../image/hzhb/agg.png',
+				name: '汇鼎（上海）汽车销售有限公司',
 				enname: 'AJAYA GURU GROUP',
 				intro: '阿侠谷成立注册于中国上海，是一家国际化的新型电商服务公司，我们专注于跨境电子商务领域，提供高规范一体化的跨境仓储资源，便捷高效的跨境服务解决方案。',
 				index: '',
@@ -16,7 +24,7 @@ Template.hzhb.helpers({
 				intro: '上海马珂博逻电子商务有限公司致力于为国内外商品厂商，电子商务销售平台提供集合建站、货源分销、商品运营，管理软件开发应用、跨国运输、国内外仓储订单履约等一站式服务。',
 				index: '',
 				shop: ''
-			},
+			}
 		]
 	}
 });

@@ -110,11 +110,12 @@ FlowRouter.route('/ptjs', {
 FlowRouter.route('/ptjs/sdpt', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "sdpt"});
+    console.log(params);
   }
 });
 
 //平台建设/了解四大平台/跨境电子商务
-FlowRouter.route('/ptjs/kjdzsw', {
+FlowRouter.route('/ptjs/:_id', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "kjdzsw"});
   }
