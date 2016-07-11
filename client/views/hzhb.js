@@ -72,6 +72,26 @@ Template.zqqy.helpers({
 				name: '上海唯可以行物流有限公司',
 				url: ''
 			},
+			{
+				img: '../image/project/嘉境通logo.png',
+				name: '嘉境通',
+				url: ''
+			},
+			{
+				img: '../image/project/hrlogo.png',
+				name: '上海汇车供应链管理有限公司',
+				url: ''
+			},
+			{
+				img: '../image/project/pro-icon.png',
+				name: '智贸通',
+				url: ''
+			},
+			{
+				img: '../image/hzhb/zqqy8.png',
+				name: '京东“跨境一号”',
+				url: '../image/project/jdlogo.png'
+			}
 
 		]
 	}

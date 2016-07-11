@@ -1,0 +1,1 @@
+FourArticles = new Mongo.Collection('FourArticles')

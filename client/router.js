@@ -110,15 +110,16 @@ FlowRouter.route('/ptjs', {
 FlowRouter.route('/ptjs/sdpt', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "sdpt"});
-    console.log(params);
   }
 });
 
-//平台建设/了解四大平台/跨境电子商务
+// 平台建设/了解四大平台/跨境电子商务
 FlowRouter.route('/ptjs/:_id', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "kjdzsw"});
+    
   }
+  // data: function(params) {console.log(params._id);return FourArticles.findOne(params._id)}
 });
 
 //平台建设/商务合作

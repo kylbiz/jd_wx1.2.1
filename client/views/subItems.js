@@ -117,47 +117,19 @@ Template.xmjs.helpers({
 		]
 	}
 });
-// Template.glyq.helpers({
-// 	items: function () {
-// 		return [
-// 			{
-// 				title: '园区概况',
-// 				subtitle: '关于园区',
-// 				img: '../image/subitems/glyq1.png',
-// 				url: '/glyq/yqgkList',
-// 				color: 'c0'
-// 			},
-// 			{
-// 				title: '功能定位',
-// 				subtitle: '项目功能',
-// 				img: '../image/subitems/glyq2.png',
-// 				url: '/glyq/gndw',
-// 				color: 'c7'
-// 			},
-// 			{
-// 				title: '投资环境',
-// 				subtitle: '园区环境',
-// 				img: '../image/subitems/glyq3.png',
-// 				url: '/glyq/tzhj',
-// 				color: 'c6'
-// 			},
-// 			{
-// 				title: '重点项目',
-// 				subtitle: '建设状况',
-// 				img: '../image/subitems/glyq4.png',
-// 				url: '/glyq/zdxm',
-// 				color: 'c8'
-// 			},
-// 			{
-// 				title: '园区文化',
-// 				subtitle: '园区新闻',
-// 				img: '../image/subitems/glyq5.png',
-// 				url: '/glyq/yqwh',
-// 				color: 'c4'
-// 			},
-// 		]
-// 	}
-// });
+Template.glyq.helpers({
+	items: function () {
+		return [
+			{
+				title: 'ideal工业区',
+				subtitle: '微信号：jiadinggongyequ',
+				img: '../image/subitems/qr.png',
+				url: '',
+				color: 'c0'
+			},
+		]
+	}
+});
 Template.yqgkList.helpers({
 	items: function () {
 		return [
