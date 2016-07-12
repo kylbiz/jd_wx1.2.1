@@ -113,13 +113,33 @@ FlowRouter.route('/ptjs/sdpt', {
   }
 });
 
-// 平台建设/了解四大平台/跨境电子商务
-// FlowRouter.route('/ptjs/:_id', {
-//   action: function() {
-//     BlazeLayout.render("mainLayout",{ content: "kjdzsw"});
-//   }
-//   // data: function(params) {console.log(params._id);return FourArticles.findOne(params._id)}
-// });
+// 平台建设/了解四大平台/嘉境通跨境电商平台
+FlowRouter.route('/ptjs/1', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "kjdzsw"});
+  }
+});
+
+// 平台建设/了解四大平台/上海汇车供应链管理有限公司汽车及其零部件展示交易平台
+FlowRouter.route('/ptjs/2', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "kjdzsw2"});
+  }
+});
+
+// 平台建设/了解四大平台/食品、化妆品的展示交易平台
+FlowRouter.route('/ptjs/3', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "kjdzsw3"});
+  }
+});
+
+// 平台建设/了解四大平台/离岸金融服务平台
+FlowRouter.route('/ptjs/4', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "kjdzsw4"});
+  }
+});
 
 //平台建设/商务合作
 FlowRouter.route('/ptjs/swhz', {
