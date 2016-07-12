@@ -25,6 +25,7 @@
   // i.e., "app": "~/Meteor/my-app",
   // This is the same as the line below.
   "app": "/Users/Administrator/Desktop/JD/jd_wx1.2.1",
+  // "app": "/Users/local/Desktop/jd/jd_wx1.2.1",
   // Configure environment
   // ROOT_URL must be set to your correct domain (https or http)
   "env": {
