@@ -64,17 +64,17 @@ Template.zdxm.helpers({
 			{
 				title: '嘉境通',
 				img: '../image/project/嘉境通logo.png',
-				url: ''
+				url: '/ptjs/1'
 			},
 			{
-				title: '上海汇车供应链管理有限公司',
+				title: '汇车供应链管理',
 				img: '../image/project/hrlogo.png',
-				url: ''
+				url: '/ptjs/2'
 			},
 			{
 				title: '智贸通',
 				img: '../image/project/pro-icon.png',
-				url: ''
+				url: '/ptjs/5'
 			},
 			{
 				title: '京东“跨境一号”',
@@ -91,17 +91,17 @@ Template.ldxm.helpers({
 			{
 				title: '嘉境通',
 				img: '../image/project/嘉境通logo.png',
-				url: ''
+				url: '/ptjs/1'
 			},
 			{
 				title: '上海汇车供应链管理有限公司',
 				img: '../image/project/hrlogo.png',
-				url: ''
+				url: '/ptjs/2'
 			},
 			{
 				title: '智贸通',
 				img: '../image/project/pro-icon.png',
-				url: ''
+				url: '/ptjs/5'
 			},
 			{
 				title: '京东“跨境一号”',
@@ -111,7 +111,7 @@ Template.ldxm.helpers({
 			{
 				title: '上海泰士星日用品制造有限公司',
 				img: '../image/hzhb/zqqy7.png',
-				url: ''
+				url: 'ptjs/6'
 			},
 			{
 				title: '乔山健康科技股份有限公司',

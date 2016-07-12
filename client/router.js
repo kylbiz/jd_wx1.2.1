@@ -141,6 +141,27 @@ FlowRouter.route('/ptjs/4', {
   }
 });
 
+//智贸通
+FlowRouter.route('/ptjs/5', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "kjdzsw5"});
+  }
+});
+
+//泰士星
+FlowRouter.route('/ptjs/6', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "kjdzsw6"});
+  }
+});
+
+//乔山
+FlowRouter.route('/ptjs/7', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "kjdzsw7"});
+  }
+});
+
 //平台建设/商务合作
 FlowRouter.route('/ptjs/swhz', {
   action: function() {
