@@ -10,8 +10,8 @@ Template.hzhb.helpers({
 			},
 			{
 				img: '../image/project/hrlogo.png',
-				name: '汇瑞（上海）汽车销售有限公司',
-				enname: 'HuiRui GROUP',
+				name: '汇鼎（上海）汽车销售有限公司',
+				enname: 'HuiDing GROUP',
 				intro: '汇瑞集团由汇力基金投资，注册资本500,000,000元。董事长孟晓苏先生曾任国家进出口检验局副局长、中房集团董事长等职务，现任中房集团理事长、幸福人寿监事长、汇力基金董事长、中国企业家联合会执行副会长。',
 				url: '/ptjs/2'
 			},

@@ -56,9 +56,35 @@ FlowRouter.route('/zsfw/zcxq', {
 });
 
 //招商服务/相关政策/法规详情
-FlowRouter.route('/zsfw/fgxq', {
+FlowRouter.route('/zsfw/fgxq1', {
   action: function() {
-    BlazeLayout.render("mainLayout",{ content: "fgxq"});
+    BlazeLayout.render("mainLayout",{ content: "fgxq1"});
+  }
+});
+
+//招商服务/相关政策/法规详情
+FlowRouter.route('/zsfw/fgxq2', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "fgxq2"});
+  }
+});
+
+//招商服务/相关政策/法规详情
+FlowRouter.route('/zsfw/fgxq3', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "fgxq3"});
+  }
+});
+//招商服务/相关政策/法规详情
+FlowRouter.route('/zsfw/fgxq4', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "fgxq4"});
+  }
+});
+//招商服务/相关政策/法规详情
+FlowRouter.route('/zsfw/fgxq5', {
+  action: function() {
+    BlazeLayout.render("mainLayout",{ content: "fgxq6"});
   }
 });
 

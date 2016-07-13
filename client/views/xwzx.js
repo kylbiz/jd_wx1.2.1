@@ -33,41 +33,35 @@ Template.xgzc.helpers({
 	laws: function () {
 		return [
 			{
-				title: '中华人民共和国进出口商品检验法',
-				date: '2016-06-13',
-				img: '../image/policy/1.png',
-				url: '/zsfw/fgxq'
-			},
-			{
 				title: '国务院关于加强食品等产品安全监督管理的特别规定',
-				date: '2016-06-13',
-				img: '../image/policy/2.png',
-				url: '/zsfw/fgxq'
-			},
-			{
-				title: '中国人民共和国进出口商品检验法',
-				date: '2016-06-13',
+				date: '2015-04-16',
 				img: '../image/policy/1.png',
-				url: '/zsfw/fgxq'
+				url: '/zsfw/fgxq1'
 			},
 			{
-				title: '国务院关于加强食品等产品安全监督管理的特别规定',
-				date: '2016-06-13',
+				title: '中华人民共和国认证认可条例',
+				date: '2015-04-16',
 				img: '../image/policy/2.png',
-				url: '/zsfw/fgxq'
+				url: '/zsfw/fgxq2'
 			},
 			{
-				title: '中国人民共和国进出口商品检验法',
-				date: '2016-06-13',
+				title: '中国人民共和国食品安全法实施条例',
+				date: '2015-04-16',
 				img: '../image/policy/1.png',
-				url: '/zsfw/fgxq'
+				url: '/zsfw/fgxq3'
 			},
 			{
-				title: '国务院关于加强食品等产品安全监督管理的特别规定',
-				date: '2016-06-13',
+				title: '中华人民共和国进出境动植物检疫法实施条例',
+				date: '2015-04-16',
 				img: '../image/policy/2.png',
-				url: ''
+				url: '/zsfw/fgxq4'
 			},
+			{
+				title: '中华人民共和国进出口商品检验法实施条例',
+				date: '2015-04-16',
+				img: '../image/policy/1.png',
+				url: '/zsfw/fgxq5'
+			}
 		]
 	},
 	policys: function () {
@@ -76,38 +70,32 @@ Template.xgzc.helpers({
 				title: '2015年4－6月海关总署公告导读',
 				date: '2015-07-17',
 				img: '../image/policy/1.png',
-				url: ''
+				url: '/zsfw/zcxq'
 			},
 			{
-				title: '2015年4－6月海关总署公告导读',
-				date: '2015-07-17',
+				title: '政策法规研究第19斯：2015年4-6月重大宏观决策及外贸政策导读',
+				date: '2015-06-27',
 				img: '../image/policy/1.png',
-				url: ''
+				url: '/zsfw/zcxq'
 			},
 			{
-				title: '2015年4－6月海关总署公告导读',
-				date: '2015-07-17',
+				title: '政策法规研究第5斯：2015年1-3月重大宏观决策及外贸政策导读',
+				date: '2015-04-16',
 				img: '../image/policy/1.png',
-				url: ''
+				url: '/zsfw/zcxq'
 			},
 			{
-				title: '2015年4－6月海关总署公告导读',
-				date: '2015-07-17',
+				title: '2015年1-3月重大宏观决策及外贸政策简介',
+				date: '2015-04-14',
 				img: '../image/policy/1.png',
-				url: ''
+				url: '/zsfw/zcxq'
 			},
 			{
-				title: '2015年4－6月海关总署公告导读',
-				date: '2015-07-17',
+				title: '2015年1-3月海关总署公告导读',
+				date: '2015-03-06',
 				img: '../image/policy/1.png',
-				url: ''
-			},
-			{
-				title: '2015年4－6月海关总署公告导读',
-				date: '2015-07-17',
-				img: '../image/policy/1.png',
-				url: ''
-			},
+				url: '/zsfw/zcxq'
+			}
 		]
 	}
 });
