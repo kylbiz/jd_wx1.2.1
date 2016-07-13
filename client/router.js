@@ -84,7 +84,7 @@ FlowRouter.route('/zsfw/fgxq4', {
 //招商服务/相关政策/法规详情
 FlowRouter.route('/zsfw/fgxq5', {
   action: function() {
-    BlazeLayout.render("mainLayout",{ content: "fgxq6"});
+    BlazeLayout.render("mainLayout",{ content: "fgxq5"});
   }
 });
 
