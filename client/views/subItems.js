@@ -12,7 +12,7 @@ Template.zsfw.helpers({
 				title: '相关政策',
 				subtitle: '政策信息',
 				img: '../image/subitems/zsfw2.png',
-				url: '/zsfw/xgzc',
+				url: 'http://www.jdepz.com/policies/?type=policiesList&classid=2  ',
 				color: 'c0'
 			},
 			{
