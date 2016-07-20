@@ -23,7 +23,8 @@
   // Location of app (local directory). This can reference '~' as the users home directory.
   // i.e., "app": "~/Meteor/my-app",
   // This is the same as the line below.
-  "app": "/Users/Administrator/Desktop/JD/jd_wx1.2.1",
+  /*"app": "/Users/Administrator/Desktop/JD/jd_wx1.2.1",*/
+  "app": "/Users/Administrator/Desktop/jd_wx1.2.1",
   // Configure environment
   // ROOT_URL must be set to your correct domain (https or http)
   "env": {
@@ -35,7 +36,7 @@
   // Before mup checks that, it will wait for the number of seconds configured below.
   "deployCheckWaitTime": 120,
 
-  // show a progress bar while uploading. 
+  // show a progress bar while uploading.
   // Make it false when you deploy using a CI box.
   "enableUploadProgressBar": true
 }
