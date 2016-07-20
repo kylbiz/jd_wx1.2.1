@@ -1,16 +1,16 @@
 <!-- 招商服务 -->
 <template name="zsfw">
-	
+
 	{{> swiper}}
-	
+
 	<section id="sub-items">
-		
+
 		<ul>
 			{{#each items}}
 			<li class="dib">
 				<a href="{{ url }}" class="db">
 					<img src="{{ img }}" alt="" class="l">
-					<p class="title">{{ title }}</p>	
+					<p class="title">{{ title }}</p>
 					<span class="color-title {{ color }} bd28">{{ subtitle }}</span>
 					<i class="fa fa-angle-right fa-2 r" aria-hidden="true"></i>
 				</a>
@@ -26,16 +26,16 @@
 
 <!-- 商务合作 -->
 <template name="swhz">
-	
+
 	{{> swiper}}
-	
+
 	<section id="sub-items">
 		<ul>
 			{{#each items}}
 			<li class="dib">
 				<a href="{{ url }}" class="db">
 					<img src="{{ img }}" alt="" class="l">
-					<p class="title">{{ title }}</p>	
+					<p class="title">{{ title }}</p>
 					<span class="color-title {{ color }} bd28">{{ subtitle }}</span>
 					<em>{{ contact }}</em>
 				</a>
@@ -50,16 +50,16 @@
 
 <!-- 平台建设 -->
 <template name="ptjs">
-	
+
 	{{> swiper}}
-	
+
 	<section id="sub-items">
 		<ul>
 			{{#each items}}
 			<li class="dib">
 				<a href="{{ url }}" class="db">
 					<img src="{{ img }}" alt="" class="l">
-					<p class="title">{{ title }}</p>	
+					<p class="title">{{ title }}</p>
 					<span class="color-title {{ color }} bd28">{{ subtitle }}</span>
 					<i class="fa fa-angle-right fa-2 r" aria-hidden="true"></i>
 				</a>
@@ -75,16 +75,16 @@
 
 <!-- 项目建设 -->
 <template name="xmjs">
-	
+
 	{{> swiper}}
-	
+
 	<section id="sub-items">
 		<ul>
 			{{#each items}}
 			<li class="dib">
 				<a href="{{ url }}" class="db">
 					<img src="{{ img }}" alt="" class="l">
-					<p class="title">{{ title }}</p>	
+					<p class="title">{{ title }}</p>
 					<span class="color-title {{ color }} bd28">{{ subtitle }}</span>
 					<i class="fa fa-angle-right fa-2 r" aria-hidden="true"></i>
 				</a>
@@ -99,17 +99,17 @@
 
 <!-- 关联园区 -->
 <template name="glyq">
-	
+
 	{{> swiper}}
-	
+
 	<section id="sub-items">
-		
+
 		<ul>
 			{{#each items}}
 			<li class="dib">
 				<a href="{{ url }}" class="db">
 					<img src="{{ img }}" alt="" class="l">
-					<p class="title">{{ title }}</p>	
+					<p class="title">{{ title }}</p>
 					<span class="color-title {{ color }} bd28">{{ subtitle }}</span>
 				</a>
 			</li>
@@ -122,22 +122,65 @@
 </template>
 
 <template name="yqgkList">
-	
+
 	<section id="sub-items">
-		
+
 		<ul>
 			{{#each items}}
 			<li class="dib">
 				<a href="{{ url }}" class="db">
 					<img src="{{ img }}" alt="" class="l">
-					<p class="title">{{ title }}</p>	
+					<p class="title">{{ title }}</p>
 					<span class="color-title {{ color }} bd28">{{ subtitle }}</span>
 					<i class="fa fa-angle-right fa-2 r" aria-hidden="true"></i>
 				</a>
 			</li>
 			{{/each}}
 		</ul>
-		
+
 	</section>
 
+</template>
+
+<template name="xgzcbl">
+	<section id="sub-items">
+
+		<ul>
+			{{#each items}}
+			<li class="dib">
+				<a href="{{ url }}" class="db">
+					<img src="{{ img }}" alt="" class="l">
+					<p class="title" style="position:absolute;left:.9rem;top:.17rem;">{{ title }}</p>
+					<i class="fa fa-angle-right fa-2 r" aria-hidden="true"></i>
+				</a>
+			</li>
+			{{/each}}
+		</ul>
+
+	</section>
+</template>
+
+<template name="xgzcbl_detail">
+	<section id="details">
+		<p>一、办理对外贸易经营者备案登记表</p>
+		<p>登陆以下网站. http://www.maofa.sh.cn/</p>
+		<p>网上填报《上海市对外贸易经营者备案登记信息表》．填写完整后打印盖章</p>
+		<p>２、其他所需提交材料清单；</p>
+		<p>１）已签字、盖章的《上海市对外贸易经营者备案登记信息表》；</p>
+		<p>２）营业执照复印件；</p>
+		<p>３）组织机构代码证书复印件；</p>
+		<p>４）企业法定代表人有效身份证复印件；</p>
+		<p>５）对外贸易经营者为外商投资企业的，还应提交外商投资企业批准证书复印件；</p>
+		<p>办理地点：浦东新区世博村路３００号５号楼１层综合受理大厅１７、１９、２０窗口</p>
+
+		<p>二、办理海关进出口收发货人</p>
+		<p>１）领取的对外贸易经营者备案登记表原件及复印件（加盖公章的）</p>
+		<p>２）营业执照原件及加盖公章的复印件</p>
+		<p>３）组织机构代码原件及加盖公章的复印件</p>
+		<p>４）公章</p>
+		<p>５）企业法定代表人有效身份证明复印件</p>
+		<p>６）报关单位情况登记表</p>
+		<p>办理地点：嘉罗公路２２１号　嘉定海关</p>
+		<div style="height:1.4rem"></div>
+	</section>
 </template>

@@ -28,8 +28,15 @@ Template.zsfw.helpers({
 				img: '../image/subitems/zsfw4.png',
 				url: '/zsfw/zclc',
 				color: 'c4'
+			},
+			{
+				title: '相关业务办理流程',
+				subtitle: '进出口权',
+				img: '../image/subitems/zsfw1.png',
+				url: '/xgzcbl',
+				color: 'c7'
 			}
-		]
+		];
 	}
 });
 
@@ -52,7 +59,7 @@ Template.swhz.helpers({
 				contact: '',
 				color: 'c6'
 			}
-		]
+		];
 	}
 });
 
@@ -171,3 +178,13 @@ Template.yqgkList.helpers({
 		]
 	}
 });
+
+Template.xgzcbl.helpers({
+	items: [
+		{
+			title: '企业进出口权办理',
+			url: '/xgzcbl_detail',
+			img: '../image/subitems/zsfw1.png'
+		}
+	]
+})

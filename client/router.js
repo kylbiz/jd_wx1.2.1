@@ -48,6 +48,19 @@ FlowRouter.route('/zsfw/xgzc', {
   }
 });
 
+//相关政策办理
+FlowRouter.route('/xgzcbl', {
+  action: function() {
+    BlazeLayout.render('mainLayout',{ content: 'xgzcbl'});
+  }
+});
+
+FlowRouter.route('/xgzcbl_detail', {
+  action: function() {
+    BlazeLayout.render('mainLayout',{ content: 'xgzcbl_detail'});
+  }
+});
+
 //招商服务/相关政策/政策详情
 FlowRouter.route('/zsfw/zcxq', {
   action: function() {
@@ -118,7 +131,7 @@ FlowRouter.route('/xwzx', {
   }
 });
 
-//驻区企业 
+//驻区企业
 FlowRouter.route('/zqqy', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "zqqy"});
@@ -210,10 +223,10 @@ FlowRouter.route('/ptjs/hzhb', {
 });
 
 
-//平台建设/在线咨询 
+//平台建设/在线咨询
 //直接 <a tel=""></a>
 
-//项目建设 
+//项目建设
 FlowRouter.route('/xmjs', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "xmjs"});
@@ -234,7 +247,7 @@ FlowRouter.route('/xmjs/ldxm', {
   }
 });
 
-//关联园区 
+//关联园区
 FlowRouter.route('/glyq', {
   action: function() {
     BlazeLayout.render("mainLayout",{ content: "glyq"});
