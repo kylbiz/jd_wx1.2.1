@@ -66,7 +66,7 @@ Template.kjdzsw4.helpers({
 
 		name: '离岸金融服务平台',
 
-		content: '',
+		content: '<p style="text-indent:0">占地面积：130亩（8.6万平方）</p><p style="text-indent:0">未来规划：1、京东全国最大跨境电商单量生产基地之一</p><p style="text-indent:0">2、全品类自营仓（可存储800万件以上商品）</p><p>规划目标：1、华东区覆盖211、次日达配送时效</p><p style="text-indent:0">2、提高客户购物体验，提升京东品牌竞争力</p>',
 
 	}
 });
